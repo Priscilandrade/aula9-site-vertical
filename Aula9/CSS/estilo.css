@@ -1,0 +1,65 @@
+body{
+    margin:0px;
+}
+
+#topo{
+    width: 100%;
+    background-color: #73B9ff;
+    height: 30px;
+    
+}
+.largura-site{
+    width:900px;
+    margin: auto;/*centraliza na página*/
+}
+
+#logotipo{
+    width: 140px;
+    height: 24px;
+    float:left;
+}
+
+#menu{
+    width: auto;
+    height: auto;
+    float:right;
+    margin-top: 8px;
+    text-transform: uppercase;
+    
+}
+
+#menu a{
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;/*tira o sublinhado do menu*/
+    margin-left: 50px;
+    
+}
+#menu a:hover{
+    text-decoration: underline; /* hover faz alguma coisa qdo o mouse está em cima, neste caso , fica com uma linha*/
+    
+    
+}
+
+.imghome{
+    float:left;
+    margin-top: 80px; /*classe utilizada nas img*/
+}
+
+#conteudohome{
+
+    width: 545px;
+    float: right;
+    height: auto;
+    margin-top: 100px;
+}
+
+.conteudo{
+    width: 100%;
+    height: auto;
+    float:left;
+    border-bottom: 1px solid #73B9ff; /* Essa classe utilizar no home, quem somos, serviços, contatos e rodapé*/ 
+}
+
+
+
